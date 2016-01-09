@@ -1,9 +1,9 @@
-<?php namespace iuriip\yii2popajax;
+<?php namespace iuriip\yii2;
 
 use Yii;
 use yii\bootstrap\Modal;
 
-class Popajax extends Modal {
+class Popup extends Modal {
 
     public function run() {
         parent::run();
@@ -20,7 +20,7 @@ $(function(){
     });
 });                
 JS;
-        $this->registerJs($js, View::POS_READY, 'yii2popajax');
+        $this->registerJs($js, View::POS_READY, 'yii2popup');
     }
 
 }
