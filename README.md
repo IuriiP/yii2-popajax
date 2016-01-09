@@ -77,6 +77,6 @@ You can use a lot the different independent modals over different `modal-target`
 
 ### Todo
 
-Add a loading process indicator
+Append a process loading indicator
 
 <?
