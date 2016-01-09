@@ -20,7 +20,7 @@ $(function(){
     });
 });                
 JS;
-        $this->registerJs($js, View::POS_READY, 'popajax');
+        $this->registerJs($js, View::POS_READY, 'yii2popajax');
     }
 
 }

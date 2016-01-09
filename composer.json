@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "iuriip\\yii2-popajax\\": ""
+            "iuriip\\yii2popajax\\": ""
         }
     },
     "extra": {
