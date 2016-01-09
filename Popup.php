@@ -21,7 +21,8 @@ $(function(){
     });
 });                
 JS;
-        $this->registerJs($js, View::POS_READY, 'yii2popup');
+        $view = $this->getView();
+        $view->registerJs($js, View::POS_READY, 'yii2popup');
     }
 
 }
