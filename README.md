@@ -18,7 +18,6 @@ Append repository to `composer.json`:
 
 ```json
     "repositories": [
-        //...
         {
             "type": "git",
             "url": "https://github.com/IuriiP/yii2-popajax.git"
@@ -44,7 +43,7 @@ Add to any element:
 
 I.e.
 
-```
+```php
 <?= Html::a('<span class="glyphicon glyphicon-eye-open"></span>', "#", [
             'title' => Yii::t('app', 'View'),
             'class' => 'modal-button',
