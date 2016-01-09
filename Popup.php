@@ -1,6 +1,7 @@
 <?php namespace iuriip\yii2;
 
 use Yii;
+use yii\web\View;
 use yii\bootstrap\Modal;
 
 class Popup extends Modal {
